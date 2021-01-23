@@ -139,5 +139,39 @@ body {
         color: white;
     }
 
+/*Styles for menu.html*/
 
+.push-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.appetizers {
+    background-color: turquoise;
+}
+
+.entrees {
+    background-color: tomato;
+}
+
+.desserts {
+    background-color: yellowgreen;
+}
+
+.menu-header {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.menu-item {
+    text-align: center;
+}
 
