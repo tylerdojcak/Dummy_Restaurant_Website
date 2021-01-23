@@ -11,7 +11,7 @@ html {
 }
 
 header {
-    background-color: gray;
+    background-color: #E0D7AD;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,15 +19,20 @@ header {
 }
     .menu {
         margin-top: 5px;
-        margin-right: 5px;
+        margin-right: 20px;
         font-size: 2.5rem;
+        color: #4F4C61;
     }
     .main-logo {
-
+        width: 25px;
+        margin-left: 20px;
     }
 
 footer {
     background-color: orchid;
+    /*position: fixed;*/
+    width: 100%;
+    bottom: 0;
 }
 
 body {
@@ -38,8 +43,9 @@ body {
     display: flex;
     justify-content: center;
     height: 300px;
-    background-image: url(images/restaurant_hero_img.jpg); /*Photo by K8 on Unsplash*/
-    /*background-size: cover;*/
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.7)), url(assets/images/hero_alt.jpg); /*Photo by Clem Onojeghuo on Unsplash*/
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
     .welcome {
@@ -52,8 +58,14 @@ body {
         align-items: center;
         text-align: center;
         font-size: 1.35rem;
-        color: yellow;
+        color: #E38A85;
+        font-family: "Lobster", cursive;
     }
+
+.hours-location-container {
+    display: flex;
+    flex-direction: column;
+}
 
 .hours {
     background-color: blueviolet;
@@ -63,6 +75,7 @@ body {
     grid-gap: 5px 5px;
     color: yellow;
     height: 100px;
+    margin-top: 20px;
 }
 
     .hours h2 {
@@ -93,11 +106,38 @@ body {
 
 .reservations {
     background-color: red;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .img-container {
     background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+    .img-container img {
+        width: 256px;
+        margin: 10px auto;
+        border: thick solid white;
+    }
+
+.social-media {
+    background-color: teal;
+    display: flex;
+    width: 50%;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px auto;
+}
+
+    .social-media .fab {
+        font-size: 3rem;
+        color: white;
+    }
 
 
 
