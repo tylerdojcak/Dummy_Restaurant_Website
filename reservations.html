@@ -27,32 +27,36 @@
         </ul>
     </header>
         <div class="reservations-heading"><h1>Make your reservation below!</h1></div>
-            <form action="#">
-                <div class="form-item">
-                    <label>Name: </label>
-                    <input type="text" name="name" required>
-                </div>
-                <div class="form-item">
-                    <label>Phone: </label>
-                    <input type="tel" name="tel" required>
-                </div>
-                <div class="form-item">
-                    <label>Email: </label>
-                    <input type="email" name="email">
-                </div>
-                <div class="form-item">
-                    <label>Date:</label>
-                    <input type="date" name="date" required>
-                </div>
-                <div class="form-item">
-                    <label>Time: </label>
-                    <input type="time" name="time" required>
-                </div>
-                <div class="form-item submit">
-                    <input type="submit">
-                </div>
-            </form>
-            <div class="footer"><footer>&copy; 2021 Trattoria Iris</footer></div>
+        <form action="#">
+            <div class="form-item">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" required class="not-submit">
+            </div>
+            <div class="form-item">
+                <label for="tel">Phone: </label>
+                <input type="tel" name="tel" id="tel" required class="not-submit">
+            </div>
+            <div class="form-item">
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" class="not-submit">
+            </div>
+            <div class="form-item">
+                <label for="date">Date:</label>
+                <input type="date" name="date" id="date" required class="not-submit">
+            </div>
+            <div class="form-item">
+                <label for="time">Time: </label>
+                <input type="time" name="time" id="time" required class="not-submit">
+            </div>
+            <div class="form-item submit">
+                <input type="submit">
+            </div>
+        </form>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+        </div>
+        <div class="footer"><footer>&copy; 2021 Trattoria Iris</footer></div>
 </body>
 </html>
 <script src="script.js"></script>
