@@ -30,6 +30,7 @@ nav {
 
     .topnav {
         display: none;
+        padding: 5px 0 5px 0;
     }
 
     .topnav li a {
@@ -219,13 +220,14 @@ form {
     background-color: cadetblue;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    min-height: 40vh;
+    justify-content: space-around;
+    min-height: 80vh;
 }
 
     .form-item {
-        text-align: center;
         font-weight: bold;
+        display: flex;
+        flex-direction: column;
     }
 
     label {
