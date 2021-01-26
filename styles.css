@@ -188,3 +188,40 @@ body {
         margin-bottom: 15px;
     }
 
+/* Styles for reservations.html */
+
+.reservations-heading {
+    background-color: burlywood;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: "Tangerine", cursive;
+}
+
+form {
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 40vh;
+}
+
+    .form-item {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    label {
+        font-size: 1.4rem;
+        color: cornsilk;
+    }
+
+    .submit input {
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        font-weight: bold;
+        box-shadow: 2px 2px 2px gray;
+        background: cornsilk;
+        color: crimson;
+    }
