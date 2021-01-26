@@ -11,9 +11,18 @@
 </head>
 <body>
     <header>
-        <img src="assets/images/eye_1.jpg" alt="" class="main-logo">
         <nav>
-            <i class="fas fa-bars menu"></i>
+            <img src="assets/images/eye_1.jpg" alt="" class="main-logo">
+            <ul class="topnav" id="js-menu">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div>
+                <a href="javascript:void(0);" class="icon"  id="js-navbar-toggle">
+                    <i class="fas fa-bars menu"></i>
+                </a>
+            </div>
         </nav>
     </header>
     <div class="welcome-container">
@@ -56,3 +65,4 @@
     <footer>&copy; 2021 Trattoria Iris</footer>
 </body>
 </html>
+<script src="script.js"></script>

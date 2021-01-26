@@ -10,7 +10,7 @@ html {
     box-sizing: inherit;
 }
 
-header {
+nav {
     background-color: #E0D7AD;
     display: flex;
     justify-content: space-between;
@@ -26,6 +26,14 @@ header {
     .main-logo {
         width: 25px;
         margin-left: 20px;
+    }
+
+    .topnav {
+        display: none;
+    }
+
+    .active {
+        display: block;
     }
 
 footer {
