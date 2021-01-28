@@ -251,6 +251,7 @@ form {
         box-shadow: 2px 2px 2px gray;
         background: cornsilk;
         color: crimson;
+        cursor: pointer;
     }
 
 /*Styles for medium-resolution screens*/
@@ -293,6 +294,10 @@ form {
             height: 200px;
         }
 
+            .hours h2 {
+                font-size: 3rem;
+            }
+
             .hours-cell {
                 font-size: 2rem;
             }
@@ -302,10 +307,25 @@ form {
             height: 200px;
             font-size: 2rem;
         }
+
+            .location {
+                text-align: center;
+            }
     
     .reservations {
-        font-size: 2rem;
+        font-size: 3.5rem;
+        margin: 80px 0 80px 0;
     }
+
+    .img-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+    }
+
+        .img-container img {
+            width: 300px;
+        }
 
     .appetizers, .entrees, .desserts {
         font-size: 2rem;
