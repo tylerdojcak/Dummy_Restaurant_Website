@@ -46,6 +46,10 @@ nav {
         background-color: crimson;
     }
 
+    .topnav-lg {
+        display: none;
+    }
+
 footer {
     background-color: orchid;
     /*position: fixed;*/
@@ -273,6 +277,24 @@ form {
 /*Styles for high-resolution screens*/
 
 @media only screen and (min-width: 769px) {
+    .toggler {
+        display: none;
+    }
+
+    .topnav-lg {
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        width: 70%;
+        justify-content: space-around;
+        font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .topnav-lg li a {
+            text-decoration: none;
+        }
+
     .welcome-container {
         height: 450px;
         background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.8)), url(assets/images/hero_alt_lg.jpg);
