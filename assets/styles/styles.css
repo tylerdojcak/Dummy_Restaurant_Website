@@ -37,22 +37,26 @@ nav {
         font-size: 2rem;
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
+        color: #303F4A;
     }
 
     .active {
         display: flex;
         list-style: none;
         justify-content: space-evenly;
-        background-color: crimson;
+        background-color: #E0D7AD;
     }
 
     .topnav-lg {
         display: none;
     }
 
+        .topnav-lg li a {
+            color: #303F4A;
+        }
+
 footer {
-    background-color: orchid;
-    /*position: fixed;*/
+    color: white;
     width: 100%;
     bottom: 0;
 }
@@ -71,7 +75,6 @@ body {
 }
 
     .welcome {
-        background-color: green;
         width: 80%;
         height: auto;
         display: flex;
@@ -80,7 +83,7 @@ body {
         align-items: center;
         text-align: center;
         font-size: 1.35rem;
-        color: #E38A85;
+        color: white;
         font-family: "Lobster", cursive;
     }
 
@@ -90,14 +93,14 @@ body {
 }
 
 .hours {
-    background-color: blueviolet;
     display: grid;
     grid-template-columns: repeat(2, 25%);
     justify-content: space-evenly;
     grid-gap: 5px 5px;
-    color: yellow;
+    color: #CEC03A;
     height: 100px;
     margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
     .hours h2 {
@@ -110,12 +113,12 @@ body {
     }
 
 .location {
-    background-color: blue;
-    color: yellow;
+    color: #CEC03A;
     height: 80px;
     display: grid;
     align-items: center;
     margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
     .location h2 {
@@ -127,15 +130,19 @@ body {
     }
 
 .reservations {
-    background-color: red;
     text-align: center;
     font-size: 1.5rem;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: #EF523F;
+}
+
+.reservations a {
+    color: #EF523F;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .img-container {
-    background-color: orange;
     display: flex;
     flex-wrap: wrap;
 }
@@ -147,7 +154,6 @@ body {
     }
 
 .social-media {
-    background-color: teal;
     display: flex;
     width: 50%;
     height: 40px;
@@ -178,18 +184,6 @@ body {
     color:  #E0D7AD;
 }
 
-.appetizers {
-    background-color: turquoise;
-}
-
-.entrees {
-    background-color: tomato;
-}
-
-.desserts {
-    background-color: yellowgreen;
-}
-
 .menu-header {
     text-align: center;
     margin: 10px auto;
@@ -213,15 +207,14 @@ body {
 /* Styles for reservations.html */
 
 .reservations-heading {
-    background-color: burlywood;
     margin: 20px auto;
     text-align: center;
     font-size: 1.8rem;
     font-family: "Tangerine", cursive;
+    color: #E0D7AD;
 }
 
 form {
-    background-color: cadetblue;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -253,8 +246,8 @@ form {
         border-radius: 5px;
         font-weight: bold;
         box-shadow: 2px 2px 2px gray;
-        background: cornsilk;
-        color: crimson;
+        background: #E0D7AD;
+        color: #303F4A;
         cursor: pointer;
     }
 
@@ -271,6 +264,10 @@ form {
 
     .submit {
         margin-left: 80px;
+    }
+
+    label {
+        font-size: 2rem;
     }
 }
 
