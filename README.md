@@ -19,8 +19,8 @@ Future Improvements:
 -Create a more realistic form. That is, write a program that will store reservation times that have already been booked and relay this information to the user while barring them from selecting an already-booked time.
 
 ### User Stories
--As a restaurant client
+-As A restaurant client I WANT TO browse the menu of a restaurant SO THAT I can decide whether I want to visit.
 
--I want to find information on a restaurant
+-AS A restaurant client I WANT TO find the hours of operation and location of a restaurant SO THAT I can plan a visit to the restaurant.
 
--So that I can plan a visit to said restaurant
+-AS A restaurant client I WANT TO make a reservation for a restaurant SO THAT I can ensure their services will be available to me when I want.
